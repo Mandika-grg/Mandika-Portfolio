@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandika Gurung - UI/UX & Frontend Designer</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-4262XYXK66");
+    </script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text"
+            >Mandika<span class="logo-accent">.</span></span
+          >
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link" data-section="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-section="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link" data-section="services"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link" data-section="portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-section="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="floating-shapes" id="floating-shapes"></div>
+        <div class="gradient-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-subtitle">UI/UX & Frontend Designer</p>
+          <h1 class="hero-title">
+            Hello, I'm <span class="text-gradient">Mandika</span><br />
+            Gurung, Creative Designer
+          </h1>
+          <p class="hero-description">
+            Crafting beautiful, user-centered digital experiences through
+            innovative design and seamless frontend development.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fas fa-envelope"></i>
+              Let's Connect
+            </a>
+            <a href="#portfolio" class="btn btn-secondary">
+              <i class="fas fa-eye"></i>
+              View Portfolio
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">25+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img
+              src="./assets/images/image1.jpg"
+              alt="Mandika Gurung"
+              class="profile-hero"
+            />
+            <div class="image-decoration"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span class="scroll-text">Scroll Down</span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get to know me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Passionate designer creating meaningful digital experiences
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-wrapper">
+              <img
+                src="./assets/images/image2.jpg"
+                alt="Mandika Gurung"
+                class="profile-image"
+              />
+              <div class="image-overlay"></div>
+              <div class="experience-badge">
+                <span class="badge-number">3+</span>
+                <span class="badge-text">Years of Experience</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-info">
+            <div class="about-text">
+              <h3>Creative UI/UX & Frontend Designer</h3>
+              <p>
+                I'm Mandika Gurung, a passionate UI/UX and Frontend Designer
+                dedicated to creating exceptional digital experiences. With a
+                keen eye for detail and a deep understanding of user psychology,
+                I transform complex problems into elegant, intuitive solutions.
+              </p>
+              <p>
+                My approach combines aesthetic excellence with functional
+                design, ensuring that every pixel serves a purpose. I believe
+                that great design is not just about how it looks, but how it
+                works and feels to the user.
+              </p>
+            </div>
+
+            <div class="tab-container">
+              <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="skills">Skills</button>
+                <button class="tab-btn" data-tab="experience">
+                  Experience
+                </button>
+                <button class="tab-btn" data-tab="tools">Tools</button>
+              </div>
+
+              <div class="tab-content">
+                <div class="tab-pane active" id="skills">
+                  <div class="skills-list">
+                    <div class="skill-item">
+                      <div class="skill-header">
+                        <span class="skill-name">UI/UX Design</span>
+                        <span class="skill-percentage">95%</span>
+                      </div>
+                      <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-header">
+                        <span class="skill-name">Frontend Development</span>
+                        <span class="skill-percentage">90%</span>
+                      </div>
+                      <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-header">
+                        <span class="skill-name">Prototyping</span>
+                        <span class="skill-percentage">88%</span>
+                      </div>
+                      <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-header">
+                        <span class="skill-name">User Research</span>
+                        <span class="skill-percentage">85%</span>
+                      </div>
+                      <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="experience">
+                  <div class="experience-timeline">
+                    <div class="timeline-item">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-content">
+                        <span class="timeline-date">2021 - Present</span>
+                        <h4>Senior UI/UX Designer</h4>
+                        <p class="company">Digital Agency</p>
+                        <p class="description">
+                          Leading design projects for web and mobile
+                          applications, conducting user research, and mentoring
+                          junior designers.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2021</span>
+                        <h4>Frontend Developer</h4>
+                        <p class="company">Tech Solutions</p>
+                        <p class="description">
+                          Developed responsive web applications using modern
+                          frontend technologies and collaborated with design
+                          teams.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-content">
+                        <span class="timeline-date">2019 - 2020</span>
+                        <h4>Junior Designer</h4>
+                        <p class="company">Creative Studio</p>
+                        <p class="description">
+                          Created visual designs, wireframes, and prototypes for
+                          various client projects.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tools">
+                  <div class="tools-grid">
+                    <div class="tool-item">
+                      <i class="fab fa-figma"></i>
+                      <span>Figma</span>
+                    </div>
+                    <div class="tool-item">
+                      <i class="fas fa-palette"></i>
+                      <span>Adobe XD</span>
+                    </div>
+                    <div class="tool-item">
+                      <i class="fab fa-sketch"></i>
+                      <span>Sketch</span>
+                    </div>
+                    <div class="tool-item">
+                      <i class="fab fa-react"></i>
+                      <span>React</span>
+                    </div>
+                    <div class="tool-item">
+                      <i class="fab fa-js-square"></i>
+                      <span>JavaScript</span>
+                    </div>
+                    <div class="tool-item">
+                      <i class="fab fa-html5"></i>
+                      <span>HTML5</span>
+                    </div>
+                    <div class="tool-item">
+                      <i class="fab fa-css3-alt"></i>
+                      <span>CSS3</span>
+                    </div>
+                    <div class="tool-item">
+                      <i class="fab fa-sass"></i>
+                      <span>Sass</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What I do</span>
+          <h2 class="section-title">My Services</h2>
+          <p class="section-subtitle">
+            Comprehensive design and development solutions
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Creating intuitive and engaging user interfaces with a focus on
+              user experience. From wireframes to high-fidelity mockups, I
+              design with both aesthetics and functionality in mind.
+            </p>
+            <div class="service-features">
+              <span class="feature-tag">Wireframing</span>
+              <span class="feature-tag">Prototyping</span>
+              <span class="feature-tag">User Testing</span>
+            </div>
+            <a href="#contact" class="service-link">
+              <span>Get Started</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Frontend Development</h3>
+            <p>
+              Bringing designs to life with clean, efficient code. I specialize
+              in responsive web development using modern frameworks and
+              technologies to create seamless user experiences.
+            </p>
+            <div class="service-features">
+              <span class="feature-tag">Responsive Design</span>
+              <span class="feature-tag">React.js</span>
+              <span class="feature-tag">Modern CSS</span>
+            </div>
+            <a href="#contact" class="service-link">
+              <span>Get Started</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Mobile App Design</h3>
+            <p>
+              Designing beautiful and functional mobile applications that
+              provide exceptional user experiences across all devices and
+              platforms.
+            </p>
+            <div class="service-features">
+              <span class="feature-tag">iOS Design</span>
+              <span class="feature-tag">Android Design</span>
+              <span class="feature-tag">App Prototyping</span>
+            </div>
+            <a href="#contact" class="service-link">
+              <span>Get Started</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">My work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            A showcase of my recent design and development projects
+          </p>
+        </div>
+
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+          <button class="filter-btn" data-filter="web">Web Design</button>
+          <button class="filter-btn" data-filter="mobile">Mobile App</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="ui-ux web">
+            <div class="portfolio-image">
+              <img src="./assets/images/image1.jpg" alt="E-commerce Platform" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-content">
+                  <span class="project-category">UI/UX Design</span>
+                  <h3>E-commerce Platform</h3>
+                  <p>
+                    Complete redesign of an e-commerce platform focusing on user
+                    journey optimization and conversion improvement.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">Figma</span>
+                    <span class="tech-tag">Prototyping</span>
+                    <span class="tech-tag">User Research</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-search"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="mobile">
+            <div class="portfolio-image">
+              <img src="./assets/images/image2.jpg" alt="Health App" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-content">
+                  <span class="project-category">Mobile App</span>
+                  <h3>Health Tracking App</h3>
+                  <p>
+                    Mobile application design for health and wellness tracking
+                    with personalized recommendations.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">Mobile UI</span>
+                    <span class="tech-tag">User Flow</span>
+                    <span class="tech-tag">Interaction Design</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-search"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web ui-ux">
+            <div class="portfolio-image">
+              <img src="./assets/images/image1.jpg" alt="Dashboard Design" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-content">
+                  <span class="project-category">Web Design</span>
+                  <h3>Analytics Dashboard</h3>
+                  <p>
+                    Modern dashboard design for data visualization with focus on
+                    clarity and user-friendly interface.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">Data Visualization</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">Responsive</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-search"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ui-ux">
+            <div class="portfolio-image">
+              <img src="./assets/images/image2.jpg" alt="Brand Identity" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-content">
+                  <span class="project-category">UI/UX</span>
+                  <h3>Brand Identity System</h3>
+                  <p>
+                    Complete brand identity and design system creation for a
+                    tech startup company.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">Brand Design</span>
+                    <span class="tech-tag">Design System</span>
+                    <span class="tech-tag">Adobe Creative Suite</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-search"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's talk</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Ready to start your next project? Let's create something amazing
+            together
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h4>Email Me</h4>
+              <p>gurungmandika27@gmail.com</p>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <h4>Call Me</h4>
+              <p>+977 984-850236</p>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h4>Location</h4>
+              <p>Nepal</p>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-dribbble"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-behance"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn">
+                <span class="btn-text">Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>Mandika Gurung</h3>
+            <p>
+              UI/UX & Frontend Designer passionate about creating exceptional
+              digital experiences.
+            </p>
+            <div class="footer-social">
+              <a href="#" class="social-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-dribbble"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-behance"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Info</h4>
+            <p><i class="fas fa-envelope"></i> gurungmandika27@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +977 984-850236</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Mandika Gurung. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
